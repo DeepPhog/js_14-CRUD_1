@@ -1,0 +1,31 @@
+.cont {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cont input {
+    margin: 2px;
+}
+
+.text {
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.title {
+    font-size: large;
+    height: 30px;
+    width: 200px;
+}
+
+.des {
+    width: 450px;
+    height: 135px;
+    resize: none;
+}
+
+#sub {
+    margin-top: 5px;
+}

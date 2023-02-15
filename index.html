@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="start">
+        <input type="search" id="input" placeholder="Search">
+        <input type="button" value="Search" onclick="Search()">
+        <input type="button" value="reset" onclick="reset()">
+        <input type="button" value="Add book" onclick="add()">
+
+        <div id="out"></div>
+    </div>
+    <center id="add" style="display: none;">
+        <h1>Add New book</h1>
+        <br><br>
+        <h2>Title</h2>
+        <input type="text" id="title" class="title text">
+        <h2>Description</h2>
+        <textarea id="des" class="des text"></textarea>
+        <br>
+
+        <input type="submit" onclick="sub()">
+    </center>
+</body>
+<script src="index.js"></script>
+
+</html>
